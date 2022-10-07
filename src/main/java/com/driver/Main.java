@@ -19,11 +19,10 @@ public class Main {
 		int x = sc.nextInt();
 		int y = sc.nextInt();
 		int z = sc.nextInt();
-		double a = sc.nextDouble();
-		double b = sc.nextDouble();
+		
 		Product p = new Product();
 		System.out.println(p.product(x,y));
 		System.out.println(p.product(x,y,z));
-		System.out.println(p.product(a,b));
+		System.out.println(p.product((double)x,(double)y);
 	}
 }
